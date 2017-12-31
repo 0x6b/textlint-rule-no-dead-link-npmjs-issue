@@ -1,0 +1,13 @@
+{
+  "name": "textlint-rule-no-dead-link-npmjs-issue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "textlint --debug -c textlintrc.json test.md"
+  },
+  "dependencies": {
+    "textlint": "^10.1.1",
+    "textlint-rule-no-dead-link": "^4.1.1"
+  }
+}
